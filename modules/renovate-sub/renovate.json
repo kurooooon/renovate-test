@@ -1,0 +1,21 @@
+{
+  "extends": ["config:base"],
+  "npm": {
+    "packageRules": [
+      {
+        "matchPaths": ["package.json"],
+        "branchPrefix": "root/renovate/",
+        "labels": ["renovate", "root/renovate"],
+        "assignees": ["kurooooon"],
+        "assigneesSampleSize": 1
+      },
+      {
+        "matchPaths": ["modules/renovate-sub/package.json"],
+        "branchPrefix": "sub/renovate/",
+        "labels": ["renovate", "sub/renovate"],
+        "assignees": ["kurooooon"],
+        "assigneesSampleSize": 1
+      }
+    ]
+  }
+}
