@@ -6,15 +6,19 @@
         "matchPaths": ["package.json"],
         "branchPrefix": "root/renovate/",
         "labels": ["renovate", "root/renovate"],
-        "assignees": ["kurooooon"],
-        "assigneesSampleSize": 1
+        "assignees": ["kurooooon"]
       },
       {
         "matchPaths": ["modules/renovate-sub/package.json"],
         "branchPrefix": "sub/renovate/",
         "labels": ["renovate", "sub/renovate"],
-        "assignees": ["kurooooon"],
-        "assigneesSampleSize": 1
+        "assignees": ["kurooooon"]
+      },
+      {
+        "matchPaths": ["modules/renovate-sub1/package.json"],
+        "branchPrefix": "sub1/renovate/",
+        "labels": ["renovate", "sub1/renovate"],
+        "assignees": ["kurooooon"]
       }
     ]
   }
